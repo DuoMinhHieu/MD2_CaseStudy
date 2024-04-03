@@ -6,7 +6,7 @@ import model.ProfileCharacter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CharacterController implements controller.IController<ProfileCharacter> {
+public class CharacterController implements IController <ProfileCharacter> {
     private List<ProfileCharacter> list = IOFileCharacter.readFileCharacter();
 
     @Override

@@ -30,4 +30,7 @@ public class IOFileUser {
         return users;
 
     }
+
+    public static void writeFileUser(List<User> list) {
+    }
 }

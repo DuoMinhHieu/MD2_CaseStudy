@@ -10,5 +10,8 @@ import java.util.Scanner;
 public class IOFileListChar {
     private static Scanner sc = new Scanner(System.in);
     private static File fileLístChar = new File();
+
+    public static List<ListChar> readFileListChar() {
+    }
 }
 

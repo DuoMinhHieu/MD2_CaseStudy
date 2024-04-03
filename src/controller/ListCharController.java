@@ -2,10 +2,11 @@ package controller;
 
 import IOFile.IOFileListChar;
 import model.ListChar;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListCharController implements controller.IController<ListChar> {
+public class ListCharController implements IController<ListChar>{
     List<ListChar> list = IOFileListChar.readFileListChar();
     @Override
     public void add(ListChar listChar) {

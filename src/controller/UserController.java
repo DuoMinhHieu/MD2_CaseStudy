@@ -2,10 +2,11 @@ package controller;
 
 import IOFile.IOFileUser;
 import model.User;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserController implements controller.IController<User> {
+public class UserController implements IController<User> {
     List<User> list = IOFileUser.readFileUser();
     @Override
     public void add(User user) {
