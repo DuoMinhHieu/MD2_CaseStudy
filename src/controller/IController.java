@@ -10,4 +10,3 @@ public interface IController<E> {
     int findByID(int id);
     List<E> findByName(String name);
 }
-
