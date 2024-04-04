@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class IOFileCharacter {
     private static Scanner sc = new Scanner(System.in);
-    private static File fileCharacter = new File("https://sg.docworkspace.com/d/sIGOsn-xk5KS4sAY");
+    private static File fileCharacter = new File("src/data/ProfileCharacter.csv");
     public static List<ProfileCharacter> readFileCharacter() {
         List<ProfileCharacter> profileCharacterList = new ArrayList<>();
         try {

@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class IOFileUser {
     private static Scanner sc = new Scanner(System.in);
-    private static File fileUser = new File("src/CaseStudy/data/User.csv");
+    private static File fileUser = new File("src/data/User.csv");
     public static List<User> readFileUser() {
         List<User> users = new ArrayList<>();
         try {

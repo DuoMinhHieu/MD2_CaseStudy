@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class IOFileListChar {
     private static Scanner sc = new Scanner(System.in);
-    private static File fileLístChar = new File("src/CaseStudy/data/ListChar.csv");
+    private static File fileLístChar = new File("src/data/ListChar.csv");
     public static List<ListChar> readFileListChar() {
         List<ListChar> listCharList = new ArrayList<>();
         try {
