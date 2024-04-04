@@ -12,6 +12,7 @@ public class FormSignup {
     public void showFormSignup() {
         boolean isValid = true;
         String regex = ".*[a-zA-Z].*";
+        //  kiểm tra xem dữ liệu nhập từ người dùng có chứa ký tự chữ cái hay không
         do {
             while (isValid) {
                 System.out.println("======== Sign Up ========");

@@ -3,7 +3,7 @@ package view;
 import input.Input;
 import java.util.Scanner;
 
-public class FormStart {
+    public class FormStart {
     private Scanner sc = new Scanner(System.in);
     public void showFormStart() {
         FormLogin formLogin = new FormLogin();

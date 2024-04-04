@@ -56,6 +56,7 @@ public class FormUser {
 
     public void addUser() {
         String regex = ".*[a-zA-Z].*";
+        //  kiểm tra xem dữ liệu nhập từ người dùng có chứa ký tự chữ cái hay không
         boolean isValid = true;
         System.out.println("---------- Add User ----------");
         System.out.println("Enter ID:  ");
@@ -151,7 +152,5 @@ public class FormUser {
             System.out.println(userController.findAll().get(checkID));
         }
     }
-    public static void ListChar
-
 }
 
