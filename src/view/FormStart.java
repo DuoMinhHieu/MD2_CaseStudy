@@ -24,9 +24,10 @@ import java.util.Scanner;
                     formSignup.showFormSignup();
                     break;
                 case 0:
-                    return;
+                    break;
             }
         } while (choice != 0);
+        sc.close();
     }
 }
 

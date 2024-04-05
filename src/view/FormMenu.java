@@ -5,8 +5,10 @@ import controller.UserController;
 import IOFile.IOFileUser;
 import model.User;
 
+import java.util.Scanner;
+
 public class FormMenu {
-    static User currentUser = null;
+    static User currentUser= new User();
     UserController userController = new UserController();
     public void showFormMenu() {
         FormCharacter formCharacter = new FormCharacter();
@@ -22,6 +24,9 @@ public class FormMenu {
             System.out.println("Enter choice: ");
             choice = Input.getNumber();
             switch (choice) {
+                case 0:
+                    System.out.println("exit");
+                    break;
                 case 1:
                     formCharacter.showFormCharacter();
                     break;
@@ -43,6 +48,7 @@ public class FormMenu {
                     return;
             }
         } while (choice != 0);
+
     }
     public void changePassword() {
         System.out.println("Enter new password");
