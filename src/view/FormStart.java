@@ -10,11 +10,11 @@ import java.util.Scanner;
         FormSignup formSignup = new FormSignup();
         int choice;
         do {
-            System.out.println("======== Start ========");
-            System.out.println("1.Login");
-            System.out.println("2.Sign Up");
-            System.out.println("0.Exit");
-            System.out.println("Enter choice: ");
+            System.out.println("|======== Start ========|");
+            System.out.println("|1.Login");
+            System.out.println("|2.Sign Up");
+            System.out.println("|0.Exit");
+            System.out.println("|Enter choice: ");
             choice = Input.getNumber();
             switch (choice) {
                 case 1:
