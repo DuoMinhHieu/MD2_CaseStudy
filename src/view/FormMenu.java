@@ -16,12 +16,12 @@ public class FormMenu {
         int choice;
         do {
             System.out.println("======== Welcome user " + currentUser.getUsername() + " ========");
-            System.out.println("======== Menu ========");
-            System.out.println("1.Character Menu");
-            System.out.println("2.User Menu");
-            System.out.println("3.Change Password");
-            System.out.println("4.Log Out");
-            System.out.println("Enter choice: ");
+            System.out.println("      |======== Menu ========|");
+            System.out.println("      |   1.Character Menu   |");
+            System.out.println("      |   2.User Menu        |");
+            System.out.println("      |   3.Change Password  |");
+            System.out.println("      |   4.Log Out          |");
+            System.out.println("      |___Enter choice:______|");
             choice = Input.getNumber();
             switch (choice) {
                 case 0:

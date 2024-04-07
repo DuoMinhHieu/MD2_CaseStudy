@@ -14,15 +14,15 @@ public class FormCharacter {
     public void showFormCharacter() {
         int choice;
         do {
-            System.out.println("======== Profile Character ========");
-            System.out.println("1.Add character");
-            System.out.println("2.Edit character");
-            System.out.println("3.Delete character");
-            System.out.println("4.Show all character");
-            System.out.println("5.Find By Name");
-            System.out.println("6.Find By ID");
-            System.out.println("7.Back");
-            System.out.println("Enter choice: ");
+            System.out.println("|======== Profile Character ========|");
+            System.out.println("|         1.Add character           |");
+            System.out.println("|         2.Edit character          |");
+            System.out.println("|         3.Delete character        |");
+            System.out.println("|         4.Show all character      |");
+            System.out.println("|         5.Find By Name            |");
+            System.out.println("|         6.Find By ID              |");
+            System.out.println("|         7.Back                    |");
+            System.out.println("|_________Enter choice: ____________|");
             choice = Input.getNumber();
             switch (choice) {
                 case 1:
@@ -109,7 +109,7 @@ public class FormCharacter {
         }
     }
     public void findByName() {
-        System.out.println("---------- Find Character By Name ----------");
+        System.out.println("|--------- Find Character By Name ---------|");
         System.out.println("Enter Name find");
         String findName = Input.getString();
         List<Integer> checkName = characterController.findByName(findName);
@@ -122,7 +122,7 @@ public class FormCharacter {
         }
     }
     public void findByID() {
-        System.out.println("---------- Find Product By ID ----------");
+        System.out.println("|--------- Find Product By ID ---------|");
         System.out.println("Enter ID find");
         int index = Input.getNumber();
         int checkID = characterController.findByID(index);
